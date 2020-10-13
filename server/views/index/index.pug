@@ -1,0 +1,31 @@
+extends ../layout/index 
+block slider
+    .slider
+        h1 Rio de Janeiro
+        em aventura
+
+block contenido
+    main.container.mt-5 
+    h2.text-center.mb-5 Sobre Nosotros
+    .row.mb-5
+        .col-md-6
+            p ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, felis in consectetur placerat, elit velit pulvinar risus, non dapibus metus magna quis augue.
+            p ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, felis in consectetur placerat, elit velit pulvinar risus, non dapibus metus magna quis augue.
+        .col-md-6    
+    h2.text-center.mb-5 Proximos Viajes
+    include ../layout/partials/viajes
+
+
+    .descuento  
+        .container
+            .row
+                .col-md-6
+                    .contenido
+                        h3 5% de Descuento
+                        p.titulo Viaje a Tahoe
+                        p.fecha 20 de Septiembre 2020 - 20 de Diciembre 2020
+                        p.precio $3000 USD
+
+    .container
+    h2.text-center.my-5 Testimoniales
+    include ../layout/partials/testimoniales
